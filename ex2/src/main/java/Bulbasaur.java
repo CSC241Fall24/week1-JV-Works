@@ -43,7 +43,7 @@ public class Bulbasaur {
         else if (this.id == 3) {
             return "Venusaur";
         }
-        return ""; // Placeholder return value
+        return "Unknown"; // Placeholder return value
     }
 
     // getID method
@@ -57,11 +57,7 @@ public class Bulbasaur {
     public String toString() {
         // TODO: Implement this method
         // Return a string representation of the Bulbasaur object
-        return "Bulbasaur{" +
-            "id=" + id +
-            ", level=" + level +
-            ", name='" + getName() + '\'' +
-            '}';
+        return "Level: " + this.level + ", ID: " + this.id;
 
     }
 
